@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/css/template.css">
+    <script src="assets/js/prog.js" defer></script>
     <title>PivaTech</title>
 </head>
 
@@ -15,10 +16,15 @@
                 <a href="index.html"><img src="assets/image/logo.png" alt="logo"></a>
             </div>
             <div class="menu">
+                <div class="menuMobile">
+                    <div class="mm_Line"></div>
+                    <div class="mm_Line"></div>
+                    <div class="mm_Line"></div>
+                </div>
                 <nav>
                     <ul>
-                        <li><a href="">Início</a></li>
-                        <li><a href="">Produtos</a></li>
+                        <li><a href="#inicio">Início</a></li>
+                        <li><a href="#produtos">Produtos</a></li>
                         <li><a href="">Contato</a></li>
                     </ul>
                 </nav>
@@ -41,11 +47,58 @@
             </div>
         </section>
         <section id="produtos">
-            <div class="produtos-container">
-                <div class="prod-head">
-                    <div class="head-text">Nossos Produtos</div>
-                    <div class="head-bar"></div>
+            <div class="prod-head">
+                <div class="head-text">Nossos Produtos</div>
+                <div class="head-bar"></div>
+            </div>
+            <div class="carousel-prod">
+                <button class="btn prev">&#10094;</button>
+                <div class="carousel">
+                    <div class="card">
+                        <img src="assets/image/notebook.png" alt="">
+                        <p class="feedback"><span>★★★☆☆</span> (3.6)</p>
+                        <h3>Acer 3° Gen</h3>
+                        <p class="price">R$ 3.299,99</p>
+                        <button>Comprar</button>
+                    </div>
+                    <div class="card">
+                        <img src="assets/image/notebook1.png" alt="">
+                        <p class="feedback"><span>★★★★☆</span> (4.3)</p>
+                        <h3>Samsung Note</h3>
+                        <p class="price">R$ 3.500</p>
+                        <button>Comprar</button>
+                    </div>
+                    <div class="card">
+                        <img src="assets/image/notebook2.png" alt="">
+                        <p class="feedback"><span>★★★★★</span> (4.9)</p>
+                        <h3>Ultra Celeron</h3>
+                        <p class="price">R$ 2.028</p>
+                        <button>Comprar</button>
+                    </div>
+                    <div class="card">
+                        <img src="assets/image/notebook.png" alt="">
+                        <p class="feedback"><span>★★★★☆</span> (4.1)</p>
+                        <h3>Acer 4° Gen</h3>
+                        <p class="price">R$ 3.299,99</p>
+                        <button>Comprar</button>
+                    </div>
+                    <div class="card">
+                        <img src="assets/image/notebook1.png" alt="">
+                        <p class="feedback"><span>★★★☆☆</span> (3.5)</p>
+                        <h3>Samsung Galaxy </h3>
+                        <p class="price">R$ 3.500</p>
+                        <button>Comprar</button>
+                    </div>
+                    <div class="card">
+                        <img src="assets/image/notebook2.png" alt="">
+                        <p class="feedback"><span>★☆☆☆☆</span> (1.6)</p>
+                        <h3>Ultra Performance</h3>
+                        <p class="price">R$ 2.028</p>
+                        <button>Comprar</button>
+                    </div>
+
                 </div>
+                <button class="btn next">&#10095;</button>
             </div>
         </section>
     </main>
