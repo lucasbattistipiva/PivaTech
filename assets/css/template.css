@@ -95,7 +95,6 @@ main {
 
 main .menu-container {
     margin-top: 20px;
-    max-width: 1200px;
 }
 
 #inicio {
@@ -103,7 +102,7 @@ main .menu-container {
     justify-content: center;
     align-items: center;
     width: 100vw;
-    background-color: #d9d9d9;
+    background-color: #e9e9e9;
     padding: 40px;
 }
 
@@ -279,6 +278,8 @@ main .menu-container {
 
 footer {
     width: 1200px;
+    display: flex;
+    justify-content: center;
 }
 
 .cfg-cabe {
